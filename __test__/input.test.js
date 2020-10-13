@@ -19,12 +19,10 @@ describe('Input', () => {
     });
     it('valid() If the user specifies the flag, but doesn’t provide any text', () => {
       const arg = new Input();
-      // arg.payload = '';
       expect(arg.validatePayload('')).toBeFalsy();
     });
     it('valid() If the user doesn’t provide a valid command', () => {
       const arg = new Input();
-      // arg.action = undefined;
       expect(arg.validateCommand('ss')).toBeFalsy();
     });
   });
