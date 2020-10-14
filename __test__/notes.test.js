@@ -20,6 +20,6 @@ describe('Note Module', () => {
       payload: 'A new note Added',
       categoryName: 'newOne',
     });
-    expect(console.log).toHaveBeenCalled();
+    expect(console.log).not.toHaveBeenCalled();
   });
 });
