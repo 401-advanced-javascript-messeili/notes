@@ -8,7 +8,8 @@
   },
   "scripts": {
     "lint": "eslint **/*.js",
-    "test": "jest --coverage --verbose"
+    "test": "jest --verbose --coverage",
+    "test-watch":"jest --verbose --coverage --watchAll"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "mongoose": "^5.10.9"
   },
   "devDependencies": {
+    "@code-fellows/supergoose": "^1.0.11",
     "eslint": "^7.11.0"
   }
 }
