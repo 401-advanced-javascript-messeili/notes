@@ -19,4 +19,4 @@ simply type node index.js --list will show all your notes
 **List specific category:**
 simply type node index.js --list --category<type your category here> will show all your notes associated to that category
 
-![img3](assets/class3.jpg)
+![img3](assets/class2.jpg)
